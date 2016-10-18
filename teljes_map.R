@@ -1,0 +1,6 @@
+library(geojsonio)
+library(rgdal)
+library(stringr)
+library(rgdal)     
+library(maptools)
+map = readOGR("MO_map.geojson", "OGRGeoJSON")
